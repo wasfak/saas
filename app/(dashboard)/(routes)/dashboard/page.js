@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-const tools = [
+/* const tools = [
   {
     label: "Conversation",
     icon: MessageSquare,
@@ -48,6 +48,15 @@ const tools = [
     href: "/code",
     color: "text-green-700",
     bgColor: "bg-green-700/10",
+  },
+]; */
+const tools = [
+  {
+    label: "Conversation",
+    icon: MessageSquare,
+    color: "text-violet-500",
+    bgColor: "bg-violet-500/10",
+    href: "/conversation",
   },
 ];
 export default function DashboardPage() {
