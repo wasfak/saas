@@ -19,7 +19,7 @@ import { usePathname } from "next/navigation";
 
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
-/* const routes = [
+const routes = [
   {
     label: "Dashboard",
     icon: LayoutDashboard,
@@ -38,18 +38,7 @@ const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
     href: "/image",
     color: "text-pink-700",
   },
-  {
-    label: "Video Generation",
-    icon: VideoIcon,
-    href: "/video",
-    color: "text-orange-700",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    href: "/music",
-    color: "text-emerald-500",
-  },
+
   {
     label: "Code Generation",
     icon: Code,
@@ -60,20 +49,6 @@ const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
     label: "Settings",
     icon: Settings,
     href: "/settings",
-  },
-]; */
-const routes = [
-  {
-    label: "Dashboard",
-    icon: LayoutDashboard,
-    href: "/dashboard",
-    color: "text-sky-500",
-  },
-  {
-    label: "Conversation",
-    icon: MessageSquare,
-    href: "/conversation",
-    color: "text-violet-500",
   },
 ];
 
